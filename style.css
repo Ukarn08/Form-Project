@@ -1,0 +1,36 @@
+/* FONTS */
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: rgb(20, 20, 20);
+    
+    
+}
+
+/* FORM CONTAINER */
+
+.container{
+   background: white;
+   height:100px;
+   width: 200px;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   margin-top: -50px;
+   margin-left: -100px;
+   transform: scale(8);
+   border-radius: 7%;
+   border: 1px solid rgb(52, 40, 56);
+
+}
+
+img#coldmountains{
+    object-fit: contain;
+    height:100px;
+    border-radius: 7px 0px 0px 7px;
+   
+
+   
+    
+
+}
