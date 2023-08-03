@@ -6,8 +6,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Iceland&family=Raleway:ital,wght@1,300&family=Ropa+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Iceland&family=Ropa+Sans&display=swap" rel="stylesheet">
+
 
     <title>Form Creation</title>
 </head>
@@ -15,23 +18,49 @@
 
 <section>
    <div class="container">
-   <img " src="img/coldmountains.jpg" id="coldmountains" alt="mountains">
+   <img " src="img/coldmountains.jpg"  id="coldmountains" alt="mountains">
 </div>
 <div>
     <img " src="img/husky.png" id="huskylogo" alt="husky">
     <p class="huskytext">Wolfenstein</p>
     <p class="formtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           Excepteur sint occaecat cupidatat non proident.</p>
 </div>
 </section>
  
-<form action="https://httpbin.org/post" method="post">
+<form class="form" action="https://httpbin.org/post" method="post">
    <div><label for="first_name">First name</label>
-    <input type="text" id="first_name"></div>
+    <input class="input" type="text" id="first_name"></div>                                   <!--FORM 1-->
 
     <div><label for="last_name">Last name</label>
-    <input type="text" id="last_name"></div>
+    <input class="input" type="text" id="last_name"></div>
 </form>
+
+<form class="form2" action="https://httpbin.org/post" method="post">
+    <div><label for="email">Email</label>                                        <!--FORM 2-->
+    <input class="input" type="text" id="email"></div>
+    
+    <div><label for="phone-number">Phone-Number</label>
+        <input class="input" type="text" id="phone-number">
+    </div>
+</form>
+
+<form class="form3" action="https://httpbin.org/post" method="post">
+   <div><label for="password">Password</label></div>                             <!--FORM 3-->
+   <input class="input" type="text" id="password">
+  
+
+</form>
+<form class="form4" action="https://httpbin.org/post" method="post">
+<div><label for="confirm-password">Confirm-Password</label>                       <!--FORM 4-->
+    <input class="input" type="text" id="confirm-password">
+    </div>
+</form>
+
+<button class="btn"  type="button" id="CreateAcc">Create Account</button>
+<p class="buttontext">Already have an account?</p>
+<a href="#">Log in</a>
+
 
 
 
